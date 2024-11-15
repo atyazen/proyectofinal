@@ -104,7 +104,7 @@ app.post('/agrega_todo', jsonParser, function (req, res) {
 app.get('/', function (req, res) {
     //Enviamos de regreso la respuesta
     res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify({ 'status': 'Operación exitosa' }));
+    res.end(JSON.stringify({ 'status': 'Servicio ejecutandose en render.com' }));
 })
 
 
